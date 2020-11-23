@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html lang="tw">
 <head>
-<meta charset= "UTF-8">
-<title>Document</title>
-<script src="https://ajax.googleapis.com/ajax/ibs/jquery/3.5.1/jquery.min.js"></script>
-
+		<meta charset="UTF-8">
+		<title>Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <style>
 .full-screen{
-position:fixed;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:rgba(255,160,35,0.6);
-z-index:10;
-display:flex;
-justify-content:center;
-align-items:center;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(255,160,35,0.6);
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 p{
-color:red;
-margin:5px;
-cursor:pointer
+	color:red;
+	margin:5px;
+	cursor;pointer;
 }
 p:hover{
-background:yellow;
+	background:yellow;
 }
-
-
 </style>
+
 </head>
 <body>
+    <p>商品說明</p>
+<h1>sHTt</h1>
+    <div class="full-screen" align=center>
 
-<p>商品說明</p>
-<h1>sHIt</h1>
-#<div class="product" align=center>
-<div class="full-screen">
-<img src="1395761214625.jpg">
+<img src="https://i.imgur.com/OlVFlfw.jpg">
 </div>
 <script>
 $("p").click(function(){
-$(".full-screen").slideToggle();
+	$(".full-screen").slideToggle();
 });
 $("img").click(function(){
-$(".full-screen").slideToggle();
+	$(".full-screen").slideToggle();
 });
 </script>
 </body>
-</html>
